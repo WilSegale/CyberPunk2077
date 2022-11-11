@@ -1,2 +1,0 @@
-#players name
-PlayerName = "Nick";

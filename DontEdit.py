@@ -11,4 +11,4 @@ PlayerWeapon = 'pistol'
 yes = ["yes","Yes","YES","y","Y"]
 no = ["no","No","NO","n","N"]
 
-YesOrNO = "Yes or No"
+YesOrNO = "Yes or No?"
