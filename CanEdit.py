@@ -1,0 +1,2 @@
+#players name
+PlayerName = "Nick";
