@@ -7,35 +7,63 @@ playerName = input(">>> ")
 name = playerName.capitalize()
 
 def start():
-    print(f"You get out of bed and get dressed.",
-          f"\nYou hear something ringing.")
-    
-    print(f"\nDo you see find what's ringing: {YesOrNO}")
+      print(f'''You get up and get dressed.''',
+            f'''\nYou hear your phone ringing.''')
 
-    choice = input(">>> ")
-    #You find whats ringin
-    if choice in yes:
-        print(f'''You find what the ringing is, and find out that it's your phone.''',
-              f'''\nYou pick up your phone and answer saying. "Hello this is {name}."''',
-              f'''\n"Hello {name} this is your landloard. You are behind on your rent."''')
-        
-        print(f'''\nDo you tell him how much you have on you right now: {YesOrNO}''')
+      print(f'''\nDo you pick up the phone. {YesOrNO}''')
 
-        choice = input(">>> ")
+      choice = input(">>> ")
+      #you pick up the phone and 
+      if choice in yes:
+            print(f'''\nYou look at the caller ID and find it's your friend {FriendsName}.''',
+                  f'''\n“Hello {FriendsName} how are you doing?”''',
+                  f'''\n“Good how are you {name}?”''',
+                  f'''“I'm doing good thanks for asking.” You say. "Hey I have to go can I call you back."''')
+            HangUp();
 
-        if choice in yes:
-            print(f'''"Ya sorry about that. I only have ${PlayerCash} on me right now will that work?"''',
-                  f'''\n"Your rent is $4942. I'll take it but you will still own me ${int(4942) - PlayerCash}"''',
-                  f'''"How am I going to make that much money?" You think to yourself.''')
+      #You dont pick up the phone and desided to go to work 
+      elif choice in no:
+            print(f'''You look at the caller ID and find its your friend {FriendsName}''',
+                  f'''\n“I can call him back.” You think to yourself.''')
+            outside();
 
-    #You leave your aparment
-    elif choice in no:
-        print(f'''You walk out the door without checking what the ringing is.''',
-              f'''\nAs you walk out the door you rilise your forgot your phone.''',
-              f'''\n"Ah shit I forgot my phone"''')
-    
-    #if the user donet input the correct input value
-    else:
-        os.system('clear')
-        return start()
+      #if the users doent input anythin it say InvalidInput
+      else:
+            print(f'''{InvalidInput}''')
+
+def HangUp():
+      print(f'''“Can I call you back? I have to go to work.” You say to your friend.''',
+            f'''\n“Ya sure.” He replies.''')
+
+
+
+def outside():
+      print('hello wrold2')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 start()
