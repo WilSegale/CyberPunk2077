@@ -58,4 +58,5 @@ def work():
             f'''\nYou go to your desk and turn on your computer.''',
             f'''\n"Time to get back to work." You say to yourself.''')
       wait(2)
+      print(f'''\nAs you get lost in your job you hear on the P.A "This is not a drill we are going on lock down!"''')
 start()
