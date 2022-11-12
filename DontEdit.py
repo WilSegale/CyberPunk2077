@@ -1,7 +1,7 @@
 from datetime import datetime
 
 now = datetime.now()
-time = now.strftime('%I:%M') #12-hour format
+time = now.strftime('%I:%M %p') #12-hour format
 
 #players car
 PlayerCar = "Ford Fiesta"

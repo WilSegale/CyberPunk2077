@@ -18,7 +18,8 @@ def start():
             print(f'''\nYou look at the caller ID and find it's your friend {FriendsName}.''',
                   f'''\n“Hello {FriendsName} how are you doing?”''',
                   f'''\n“Good how are you {name}?”''',
-                  f'''“I'm doing good thanks for asking.” You say. "Hey I have to go can I call you back."''')
+                  f'''\n“I'm doing good thanks for asking.” You say.'''
+                  f'''\n"Hey I have to go can I call you back."''')
             HangUp();
 
       #You dont pick up the phone and desided to go to work 
@@ -30,17 +31,19 @@ def start():
       #if the users doent input anythin it say InvalidInput
       else:
             print(f'''{InvalidInput}''')
-
+      
+#player hanges up so they can go to work
 def HangUp():
       print(f'''“Can I call you back? I have to go to work.” You say to your friend.''',
             f'''\n“Ya sure.” He replies.''')
       outside();
 
+#player goes outside to get in there car
 def outside():
       print(f'''\nYou go outside and look around and see the street filled with people going along with their business.''',
             f'''\n“Man, this city never sleeps." You think to yourself.''',
             f'''\nYou walk towards your {PlayerCar} and start it up. The car hums with life.''',
-            f'''\n“You haven’t left me yet have you.” You say to your old car.''')
+            f'''\n“You haven't left me yet have you.” You say to your old car.''')
       work();
 
 def work():
