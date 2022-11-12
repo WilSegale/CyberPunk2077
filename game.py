@@ -1,7 +1,8 @@
 from DontEdit import *
 from CanEdit import *
-import os
+import time
 
+wait = time.sleep
 print(f"Input your name")
 playerName = input(">>> ")
 name = playerName.capitalize()
@@ -44,9 +45,17 @@ def outside():
             f'''\n“Man, this city never sleeps." You think to yourself.''',
             f'''\nYou walk towards your {PlayerCar} and start it up. The car hums with life.''',
             f'''\n“You haven't left me yet have you.” You say to your old car.''')
+      DriveToWork();
+
+def DriveToWork():
+      print(f'''\nYou get on the highway and find that there is traffic.''',
+            f'''\nYou look at your watch and see that the time is {time}.''',
+            f'''\nAfter a while you get to work.''')
       work();
 
 def work():
-      print(f'''\nYou get on the highway and find that there is traffic.''',
-            f'''\nYou look at your watch and see that the time is {time}''')
+      print(f'''\nYou get to work and clock in like you do every day.''',
+            f'''\nYou go to your desk and turn on your computer.''',
+            f'''\n"Time to get back to work." You say to yourself.''')
+      wait(2)
 start()

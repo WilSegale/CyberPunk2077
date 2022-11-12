@@ -1,16 +1,10 @@
 from datetime import datetime
-
+import time
 now = datetime.now()
 time = now.strftime('%I:%M %p') #12-hour format
 
 #players car
 PlayerCar = "Ford Fiesta"
-
-#Players weapon
-PlayerWeapon = 'pistol'
-
-# FriendsName
-FriendsName = "Nick";
 
 # yes or no fucntion for the players option
 yes = ["yes","Yes","YES","y","Y"]
