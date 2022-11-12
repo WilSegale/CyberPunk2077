@@ -74,8 +74,16 @@ def getLunch():
             f'''\nYou and your co-workres walk to get lunch at the nearest resteront.''',
             f'''\nYou sit down at your seat and talk to your co-workres.''',
             f'''\nAfter you finish eating you and your co-workres go back to work.''')
+      BackToWork();
 
 def getBackToWork():
-      print(f'''\n"Sorry I cant I have a lot of work to do mabye next time."''')
+      print(f'''\n"Sorry I cant I have a lot of work to do. Mabye next time?"''')
+      BackToWork()
+
+def BackToWork():
+      print(f'''You get back to work. 5 minutes later you hear your boss says''',
+            f'''\n"Hey {playerName} can I talk to you in my office?"''',
+            f'''\nYou start to get scared that you did something wrong, but you keep your compuoser and say''',
+            f'''\n"Ya sure Im coming right now."''')
   
 start()
