@@ -34,8 +34,7 @@ def start():
 def HangUp():
       print(f'''“Can I call you back? I have to go to work.” You say to your friend.''',
             f'''\n“Ya sure.” He replies.''')
-
-
+      outside();
 
 def outside():
       print('hello wrold2')
