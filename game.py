@@ -49,7 +49,7 @@ def outside():
 
 def DriveToWork():
       print(f'''\nYou get on the highway and find that there is traffic.''',
-            f'''\nYou look at your watch and see that the time is {time}.''',
+            f'''\nYou look at your watch and see that the time is {TimeRightNow}.''',
             f'''\nAfter a while you get to work.''')
       work();
 
@@ -58,5 +58,24 @@ def work():
             f'''\nYou go to your desk and turn on your computer.''',
             f'''\n"Time to get back to work." You say to yourself.''')
       wait(2)
-      print(f'''\nAs you get lost in your job you hear on the P.A "This is not a drill we are going on lock down!"''')
+      print(f''''"Hey {playerName} we are going to get lunch want to come?"''')
+      
+      print(f'''\nDo you get lunch with your co-workres. {YesOrNO}''')
+      
+      choice = input(">>> ")
+      if choice in yes:
+            getLunch();
+      elif choice in no:
+            getBackToWork()
+      else:
+            print(f'''{InvalidInput}''')
+def getLunch():
+      print(f'''"Ya sure I'll have lunch with you guys." You say to your co-workres.''',
+            f'''\nYou and your co-workres walk to get lunch at the nearest resteront.''',
+            f'''\nYou sit down at your seat and talk to your co-workres.''',
+            f'''\nAfter you finish eating you and your co-workres go back to work.''')
+
+def getBackToWork():
+      print(f'''\n"Sorry I cant I have a lot of work to do mabye next time."''')
+  
 start()
