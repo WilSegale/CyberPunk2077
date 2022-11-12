@@ -10,7 +10,7 @@ def start():
       print(f'''You get up and get dressed.''',
             f'''\nYou hear your phone ringing.''')
 
-      print(f'''\nDo you pick up the phone. {YesOrNO}''')
+      print(f'''\nDo you pick up the phone: {YesOrNO}''')
 
       choice = input(">>> ")
       #you pick up the phone and 
