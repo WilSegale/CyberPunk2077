@@ -19,8 +19,7 @@ def start():
             print(f'''\nYou look at the caller ID and find it's your friend {FriendsName}.''',
                   f'''\n“Hello {FriendsName} how are you doing?”''',
                   f'''\n“Good how are you {name}?”''',
-                  f'''\n“I'm doing good thanks for asking.” You say.'''
-                  f'''\n"Hey I have to go can I call you back."''')
+                  f'''\n“I'm doing good thanks for asking.” You say.''')
             HangUp();
 
       #You dont pick up the phone and desided to go to work 
@@ -58,7 +57,7 @@ def work():
             f'''\nYou go to your desk and turn on your computer.''',
             f'''\n"Time to get back to work." You say to yourself.''')
       wait(2)
-      print(f''''"Hey {playerName} we are going to get lunch want to come?"''')
+      print(f'''"Hey {playerName} we are going to get lunch want to come?"''')
       
       print(f'''\nDo you get lunch with your co-workres. {YesOrNO}''')
       
@@ -81,7 +80,7 @@ def getBackToWork():
       BackToWork()
 
 def BackToWork():
-      print(f'''You get back to work. 5 minutes later you hear your boss says''',
+      print(f'''You get back to work. 5 minutes later you hear your boss say''',
             f'''\n"Hey {playerName} can I talk to you in my office?"''',
             f'''\nYou start to get scared that you did something wrong, but you keep your compuoser and say''',
             f'''\n"Ya sure Im coming right now."''')
