@@ -37,12 +37,13 @@ def HangUp():
       outside();
 
 def outside():
-      print(f'''You go outside and look around and see the street filled with people going along with their business.''',
+      print(f'''\nYou go outside and look around and see the street filled with people going along with their business.''',
             f'''\n“Man, this city never sleeps." You think to yourself.''',
             f'''\nYou walk towards your {PlayerCar} and start it up. The car hums with life.''',
             f'''\n“You haven’t left me yet have you.” You say to your old car.''')
       work();
 
 def work():
-      
+      print(f'''\nYou get on the highway and find that there is traffic.''',
+            f'''\nYou look at your watch and see that the time is {time}''')
 start()
