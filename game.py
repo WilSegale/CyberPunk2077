@@ -105,9 +105,11 @@ def GoToTheBossOffice():
             f'''\n*8 hours later* "Time to go back home."''')
       home()
 
+#you get home and call your friend
 def home():
-      print(f'''As you get home you pick up your phone and call your friend.''')
-
+      print(f'''\nAs you get home you pick up your phone and call your friend.''',
+            f'''\n"Hello {FriendsName} how are you doing sorry for the long wait"''',
+            f'''\n)
 
 
 start()
