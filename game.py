@@ -1,6 +1,7 @@
 from DontEdit import *
 from CanEdit import *
 import time
+import os
 
 wait = time.sleep
 print(f"Input your name")
@@ -109,7 +110,27 @@ def GoToTheBossOffice():
 def home():
       print(f'''\nAs you get home you pick up your phone and call your friend.''',
             f'''\n"Hello {FriendsName} how are you doing sorry for the long wait"''',
-            f'''\n"That's ok I understand that you have work to do."''')
+            f'''\n"That's ok I understand that you have work to do." He says'''
+            f'''\nYou talk for awhile and then go to bed''')
+      gameOver();
 
+def gameOver():
+
+    print(f'''\nGame over''',
+          f'''\nDo you want to play again: {YesOrNO}''')
+    
+    choice = input(">>> ") 
+    
+    if choice in yes:
+        start()
+
+    elif choice in no:
+        print(f"Good bye")
+        print(f'Writer: wilsegale')
+        print(f'Programmer: wilsegale')
+        print(f'Developer: wilsegale')
+        os.system('exit')
+    else:
+        gameOver()
 
 start()
