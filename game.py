@@ -89,7 +89,7 @@ def getBackToWork():
 
 #player goes back to work and then gets called to the bosses office
 def BackToWork():
-      print(f'''\nYou get back to work. 5 minutes later you hear your boss say''',
+      print(f'''You get back to work. 5 minutes later you hear your boss say''',
             f'''\n"Hey {playerName} can I talk to you in my office?"''',
             f'''\nYou start to get scared that you did something wrong, but you keep your compuoser and say''',
             f'''\n"Ya sure Im coming right now."''')
@@ -106,7 +106,7 @@ def GoToTheBossOffice():
       home()
 
 def home():
-      
+      print(f'''As you get home you pick up your phone and call your friend.''')
 
 
 
