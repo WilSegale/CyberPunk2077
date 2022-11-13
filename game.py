@@ -32,6 +32,7 @@ def start():
       #if the users doent input anythin it say InvalidInput
       else:
             print(f'''{InvalidInput}''')
+            return start()
       
 #player hanges up so they can go to work
 def HangUp():
@@ -74,6 +75,7 @@ def work():
       
       else:
             print(f'''{InvalidInput}''')
+            return work()
 
 #player gets lunch with there co-workres
 def getLunch():
