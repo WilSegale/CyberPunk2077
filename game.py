@@ -97,5 +97,7 @@ def BackToWork():
 
 #player goes into the bosses office and gets talked too
 def GoToTheBossOffice():
-      print(f'''\n"I would like to talk to you about the sales that have happend." Your boss tells you.''')
+      print(f'''\n"I would like to talk to you about the sales that have happend." Your boss tells you.''',
+            f'''\n"Ya what abouth them?" You ask your boss.''',
+            f'''\n"They are riseing at a fast rate. I think this is because of you?" He says''')
 start()
