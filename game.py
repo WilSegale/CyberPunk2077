@@ -99,5 +99,15 @@ def BackToWork():
 def GoToTheBossOffice():
       print(f'''\n"I would like to talk to you about the sales that have happend." Your boss tells you.''',
             f'''\n"Ya what abouth them?" You ask your boss.''',
-            f'''\n"They are riseing at a fast rate. I think this is because of you?" He says''')
+            f'''\n"They are riseing at a fast rate. I think this is because of you?" He says''',
+            f'''\n"Thank you boss. Is that all? Can I go back to work" You say.''',
+            f'''\n"What, oh yes you can go back to work." He says.''',
+            f'''\n*8 hours later* "Time to go back home."''')
+      home()
+
+def home():
+      
+
+
+
 start()
