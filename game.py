@@ -119,7 +119,8 @@ def wakeUp():
       print(f'''\nYou wake up and get dressed for work.''',
             f'''\nYou walk down stairs and find your sister at the table''',
             f'''\n"What are you doing here?" You say.''',
-            f'''\nYour sister looks at you and says. "What you dont want to see me?"''')
-
+            f'''\nYour sister looks at you and says. "What you dont want to see me?"''',
+            f'''\n"No dont get me wrong it's greate to see you again."''',
+            f'''\n"But I have work soon. So can you plase get out of my way so I can get to work?"''',)
 
 start()
