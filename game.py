@@ -63,7 +63,7 @@ def work():
       wait(2)
       print(f'''"Hey {playerName} we are going to get lunch want to come?"''')
       
-      print(f'''\nDo you get lunch with your co-workres. {YesOrNO}''')
+      print(f'''\nDo you get lunch with your co-workres: {YesOrNO}''')
       
       choice = input(">>> ")
 
@@ -114,25 +114,12 @@ def home():
             f'''\n"Hello {FriendsName} how are you doing sorry for the long wait"''',
             f'''\n"That's ok I understand that you have work to do." He says'''
             f'''\nYou talk for awhile and then go to bed''')
-      gameOver();
+      wakeUp()
+def wakeUp():
+      print(f'''\nYou wake up and get dressed for work.''',
+            f'''\nYou walk down stairs and find your sister at the table''',
+            f'''\n"What are you doing here?" You say.''',
+            f'''\nYour sister looks at you and says. "What you dont want to see me?"''')
 
-def gameOver():
-
-    print(f'''\nGame over''',
-          f'''\nDo you want to play again: {YesOrNO}''')
-    
-    choice = input(">>> ") 
-    
-    if choice in yes:
-        start()
-
-    elif choice in no:
-        print(f"Good bye")
-        print(f'Writer: wilsegale')
-        print(f'Programmer: wilsegale')
-        print(f'Developer: wilsegale')
-        os.system('exit')
-    else:
-        gameOver()
 
 start()

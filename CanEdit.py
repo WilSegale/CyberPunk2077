@@ -2,4 +2,4 @@
 PlayerWeapon = 'pistol'
 
 # FriendsName (player can change the name of friends name)
-FriendsName = "Nick"; 
+FriendsName = "Nick";
