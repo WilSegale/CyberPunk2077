@@ -139,23 +139,12 @@ def wakeUp():
 def hearHerOut():
       print(f'''\n"Ok you have 5 minutes." You say to your sister.''',
             f'''\n"Ok {playerName} I have a job for you the client will pay you very well." She says.''',
-            f'''\n"Ok you have my attention." You say''')
-      
-
-
-
-
-
-
-
-
-
-
+            f'''\n"Ok you have my attention." You say'''
+            f'''\n"Ok so it pays you at least 10K"''')
+            
 def dontHearHerOut():
       print(f'''\n"Sorry but I really have to go to work" You say to your sister''')
       print(f'''\n"Can I at least give you my new number, so I you can call me if you change you mind?" She says.''')
-
-
 
 
 
