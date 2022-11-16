@@ -12,7 +12,7 @@ def start():
       print(f'''You get up and get dressed.''',
             f'''\nYou hear your phone ringing.''')
 
-      print(f'''\nDo you pick up the phone: {YesOrNO}''')
+      print(f'''\nDo you pick up the phone{YesOrNO}''')
 
       choice = input(">>> ")
       #you pick up the phone and 
@@ -63,7 +63,7 @@ def work():
       wait(2)
       print(f'''"Hey {playerName} we are going to get lunch want to come?"''')
       
-      print(f'''\nDo you get lunch with your co-workres: {YesOrNO}''')
+      print(f'''\nDo you get lunch with your co-workres{YesOrNO}''')
       
       choice = input(">>> ")
 
@@ -121,6 +121,42 @@ def wakeUp():
             f'''\n"What are you doing here?" You say.''',
             f'''\nYour sister looks at you and says. "What you dont want to see me?"''',
             f'''\n"No dont get me wrong it's greate to see you again."''',
-            f'''\n"But I have work soon. So can you plase get out of my way so I can get to work?"''',)
+            f'''\n"But I have work soon. So can you plase get out of my way so I can get to work?"''',
+            f'''\n"Can we talk I have something important to tell you." She says to you.''')
+      
+      print(f'''\nDo you hear what she has to say to you{YesOrNO}''')
+
+      choice = input(">>> ")
+
+      if choice in yes:
+            hearHerOut();
+      elif choice in no:
+            dontHearHerOut();
+      else:
+            print(f'''{InvalidInput}''')
+            return wakeUp()
+
+def hearHerOut():
+      print(f'''\n"Ok you have 5 minutes." You say to your sister.''',
+            f'''\n"Ok {playerName} I have a job for you the client will pay you very well." She says.''',
+            f'''\n"Ok you have my attention." You say''')
+      
+
+
+
+
+
+
+
+
+
+
+def dontHearHerOut():
+      print(f'''\n"Sorry but I really have to go to work" You say to your sister''')
+      print(f'''\n"Can I at least give you my new number, so I you can call me if you change you mind?" She says.''')
+
+
+
+
 
 start()
