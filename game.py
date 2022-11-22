@@ -141,6 +141,7 @@ def hearHerOut():
             f'''\n"Ok {playerName} I have a job for you the client will pay you very well." She says.''',
             f'''\n"Ok you have my attention." You say'''
             f'''\n"Ok so it pays you at least 10K"''')
+      ThinkAboutIt();
             
 def dontHearHerOut():
       print(f'''\n"Sorry but I really have to go to work" You say to your sister''')
@@ -156,7 +157,16 @@ def dontHearHerOut():
 
       else:
             print(f'''{InvalidInput}''')
+
+
+def ThinkAboutIt():
+      print(f'''"Ok I'll think about it."''')
+
 def SayOk():
-      print("Ok")
+      print(f'''\n"Fine I'll take your number if I change my mind." You say.''',
+            f'''\n"Ok heres my number 818-240-6888." She says.''')
+
+def SayNo():
+      print(f'''"Looks like your time is up. Now plase get out of my appartment please." You say to your sister.''')
 
 start()
