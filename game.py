@@ -144,8 +144,19 @@ def hearHerOut():
             
 def dontHearHerOut():
       print(f'''\n"Sorry but I really have to go to work" You say to your sister''')
-      print(f'''\n"Can I at least give you my new number, so I you can call me if you change you mind?" She says.''')
+      print(f'''\n"Can I at least give you my new number, so you can call me if you change you mind?" She says.''')
 
+      choice = input(">>> ")
 
+      if choice in yes:
+            SayOk()
+
+      elif choice in no:
+            SayNo()
+
+      else:
+            print(f'''{InvalidInput}''')
+def SayOk():
+      print("Ok")
 
 start()
