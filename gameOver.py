@@ -1,4 +1,4 @@
-from game import *
+Amc@123from game import *
 from DontEdit import *
 def gameOver():
 
@@ -18,3 +18,4 @@ def gameOver():
         os.system('exit')
     else:
         return gameOver()
+gameOver()
