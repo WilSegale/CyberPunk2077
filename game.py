@@ -130,6 +130,7 @@ def wakeUp():
 
       if choice in yes:
             hearHerOut();
+
       elif choice in no:
             dontHearHerOut();
       else:
@@ -164,8 +165,8 @@ def ThinkAboutIt():
 
 def SayOk():
       print(f'''\n"Fine I'll take your number if I change my mind." You say.''',
-            f'''\n"Ok heres my number 818-240-6888." She says.''')
-
+            f'''\n"Ok heres my number 818-240-6888." She says''',
+            f'''\n"Thanks {SisterName}"''')
 def SayNo():
       print(f'''"Looks like your time is up. Now plase get out of my appartment please." You say to your sister.''')
 
