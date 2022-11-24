@@ -145,8 +145,10 @@ def hearHerOut():
       ThinkAboutIt();
             
 def dontHearHerOut():
-      print(f'''\n"Sorry but I really have to go to work" You say to your sister''')
-      print(f'''\n"Can I at least give you my new number, so you can call me if you change you mind?" She says.''')
+      print(f'''\n"Sorry but I really have to go to work" You say to your sister''',
+            f'''\n"Can I at least give you my new number, so you can call me if you change you mind?" She says.''')
+      
+      print(f'''Do you let your sister give you her number{YesOrNO}''');
 
       choice = input(">>> ")
 
