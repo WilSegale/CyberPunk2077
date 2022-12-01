@@ -1,4 +1,4 @@
-Amc@123from game import *
+from game import *
 from DontEdit import *
 def gameOver():
 

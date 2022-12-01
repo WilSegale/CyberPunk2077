@@ -1,7 +1,6 @@
 from DontEdit import *
 from CanEdit import *
 import time
-import os
 
 wait = time.sleep
 print(f"Input your name")
@@ -160,16 +159,18 @@ def dontHearHerOut():
 
       else:
             print(f'''{InvalidInput}''')
+            return dontHearHerOut()
 
 
 def ThinkAboutIt():
-      print(f'''"Ok I'll think about it."''')
+      print(f'''\n"Ok I'll think about it." You say to your sister''',
+            f'''\n''')
 
 def SayOk():
       print(f'''\n"Fine I'll take your number if I change my mind." You say.''',
             f'''\n"Ok heres my number 818-240-6888." She says''',
             f'''\n"Thanks {SisterName}"''')
 def SayNo():
-      print(f'''"Looks like your time is up. Now plase get out of my appartment please." You say to your sister.''')
+      print(f'''\n"Looks like your time is up. Now plase get out of my appartment please." You say to your sister.''')
 
 start()
