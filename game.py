@@ -159,7 +159,6 @@ def dontHearHerOut():
       else:
             print(f'''{InvalidInput}''')
 
-
 def ThinkAboutIt():
       print(f'''"Ok I'll think about it."''')
 
@@ -168,6 +167,6 @@ def SayOk():
             f'''\n"Ok heres my number 818-240-6888." She says''',
             f'''\n"Thanks {SisterName}"''')
 def SayNo():
-      print(f'''"Looks like your time is up. Now plase get out of my appartment please." You say to your sister.''')
+      print(f'''"Looks like your time is up. Now plase get out of my appartment." You say to your sister.''')
 
 start()
