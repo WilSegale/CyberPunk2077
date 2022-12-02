@@ -1,7 +1,6 @@
 from DontEdit import *
 from CanEdit import *
 import time
-import os
 
 wait = time.sleep
 print(f"Input your name")
@@ -108,13 +107,15 @@ def GoToTheBossOffice():
             f'''\n*8 hours later* "Time to go back home."''')
       home()
 
-#you get home and call your friend
+#player gets home and calls friend
 def home():
       print(f'''\nAs you get home you pick up your phone and call your friend.''',
             f'''\n"Hello {FriendsName} how are you doing sorry for the long wait"''',
             f'''\n"That's ok I understand that you have work to do." He says'''
             f'''\nYou talk for awhile and then go to bed''')
       wakeUp()
+
+#player wakeups and see there sister in there appartment 
 def wakeUp():
       print(f'''\nYou wake up and get dressed for work.''',
             f'''\nYou walk down stairs and find your sister at the table''',
@@ -137,16 +138,20 @@ def wakeUp():
             print(f'''{InvalidInput}''')
             return wakeUp()
 
+#Player hears what there sister has to say
 def hearHerOut():
       print(f'''\n"Ok you have 5 minutes." You say to your sister.''',
             f'''\n"Ok {playerName} I have a job for you the client will pay you very well." She says.''',
             f'''\n"Ok you have my attention." You say'''
             f'''\n"Ok so it pays you at least 10K"''')
       ThinkAboutIt();
-            
+
+#Player doesn't hears what there sister has to say
 def dontHearHerOut():
-      print(f'''\n"Sorry but I really have to go to work" You say to your sister''')
-      print(f'''\n"Can I at least give you my new number, so you can call me if you change you mind?" She says.''')
+      print(f'''\n"Sorry but I really have to go to work" You say to your sister''',
+            f'''\n"Can I at least give you my new number, so you can call me if you change you mind?" She says.''')
+      
+      print(f'''Do you let your sister give you her number{YesOrNO}''');
 
       choice = input(">>> ")
 
@@ -158,15 +163,25 @@ def dontHearHerOut():
 
       else:
             print(f'''{InvalidInput}''')
+<<<<<<< HEAD
 
+=======
+            return dontHearHerOut()
+#player thinks about the job
+>>>>>>> 5c48bc4e5852cdee87cd8bddcfa53977a6c84ba0
 def ThinkAboutIt():
-      print(f'''"Ok I'll think about it."''')
+      print(f'''\n"Ok I'll think about it." You say to your sister''',
+            f'''\nYour sister walks out of your aparment ''')
 
 def SayOk():
       print(f'''\n"Fine I'll take your number if I change my mind." You say.''',
             f'''\n"Ok heres my number 818-240-6888." She says''',
             f'''\n"Thanks {SisterName}"''')
 def SayNo():
+<<<<<<< HEAD
       print(f'''"Looks like your time is up. Now plase get out of my appartment." You say to your sister.''')
+=======
+      print(f'''\n"Looks like your time is up. Now plase get out of my appartment please." You say to your sister.''')
+>>>>>>> 5c48bc4e5852cdee87cd8bddcfa53977a6c84ba0
 
 start()
