@@ -1,5 +1,4 @@
 from datetime import datetime
-import os
 
 now = datetime.now()
 TimeRightNow = now.strftime('%I:%M %p') #12-hour format

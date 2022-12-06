@@ -1,3 +1,10 @@
+# Programer: will segale
+# Date: 12/01/22
+# Description: CyberPunk2077 Game Program
+# Mod history
+# Programer, date, Mod Descrptioin
+# Will Segale, 12/01/22, intele code
+
 from DontEdit import *
 from CanEdit import *
 import time
@@ -134,6 +141,7 @@ def wakeUp():
 
       elif choice in no:
             dontHearHerOut();
+
       else:
             print(f'''{InvalidInput}''')
             return wakeUp()
@@ -164,16 +172,22 @@ def dontHearHerOut():
       else:
             print(f'''{InvalidInput}''')
             return dontHearHerOut()
+      
 #player thinks about the job
 def ThinkAboutIt():
       print(f'''\n"Ok I'll think about it." You say to your sister''',
-            f'''\nYour sister walks out of your aparment ''')
+            f'''\nYour sister walks out of your aparment''',
+            f'''\n"At last I can think about what she said about the job." You think to yourself.''',
+            f''' \nYou start to get tired and think about heading to bed. But you still have a lot of work to do.''')
+      
+      print(f'''''')
 
 def SayOk():
       print(f'''\n"Fine I'll take your number if I change my mind." You say.''',
             f'''\n"Ok heres my number 818-240-6888." She says''',
             f'''\n"Thanks {SisterName}"''')
+
 def SayNo():
       print(f'''\n"Looks like your time is up. Now plase get out of my appartment please." You say to your sister.''')
-
+      
 start()
