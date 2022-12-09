@@ -179,8 +179,6 @@ def ThinkAboutIt():
             f'''\nYour sister walks out of your aparment''',
             f'''\n"At last I can think about what she said about the job." You think to yourself.''',
             f''' \nYou start to get tired and think about heading to bed. But you still have a lot of work to do.''')
-      
-      print(f'''''')
 
 def SayOk():
       print(f'''\n"Fine I'll take your number if I change my mind." You say.''',
