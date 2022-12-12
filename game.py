@@ -160,7 +160,6 @@ def dontHearHerOut():
             f'''\n"Can I at least give you my new number, so you can call me if you change you mind?" She says.''')
       
       print(f'''Do you let your sister give you her number{YesOrNO}''');
-
       choice = input(">>> ")
 
       if choice in yes:
