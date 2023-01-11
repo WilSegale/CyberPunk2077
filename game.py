@@ -28,7 +28,7 @@ def start():
                   f'''\n“I can call him back.” You think to yourself.''')
             outside();
 
-      #if the users doent input anythin it say InvalidInput
+      #if the users doen't input anything it say InvalidInput
       else:
             print(f'''{InvalidInput}''')
             return start()
