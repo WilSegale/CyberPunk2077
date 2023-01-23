@@ -188,7 +188,6 @@ try:
 
       def SayNo():
             print(f'''\n"Looks like your time is up. Now plase get out of my appartment please." You say to your sister.''')
-            
       start()
 
 except Exception as err:
