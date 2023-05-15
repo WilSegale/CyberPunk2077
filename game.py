@@ -2,7 +2,6 @@ from DontEdit import *
 from CanEdit import *
 import time
 
-
 try:
       wait = time.sleep
       print(f"Input your name")
