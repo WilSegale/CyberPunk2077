@@ -177,15 +177,11 @@ try:
             
       #the player says no to the job there sister gives them
       def SayNo():
-            print(f'''\n"Looks like your time is up. Now plase get out of my appartment please." You say to your sister.''')
-            print(f'''\n"Fine I will leave you alone for now." She says.''',
+            print(f'''\n"Looks like your time is up. Now plase get out of my appartment please." You say to your sister.'''
+                  f'''\n"Fine I will leave you alone for now." She says.''',
                   f'''\nYou walk her to the door and she leaves.''',
                   f'''\nYou close the door and go to work.''')
             
-            print(f'''\nYou get to work and clock in like you do every day.''',
-                  f'''\nYou go to your desk and turn on your computer.''',
-                  f'''\n"Time to get back to work." You say to yourself.''')
-            wait(2)
       start()
 
 except Exception as err:
