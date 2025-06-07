@@ -1,6 +1,5 @@
 from DontEdit import *
 from CanEdit import *
-import time
 
 try:
       wait = time.sleep
